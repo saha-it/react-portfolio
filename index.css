@@ -1,0 +1,84 @@
+.header-font {
+    color: red;
+}
+
+.main-side-space {
+    margin: 0 3em;
+}
+
+.heading {
+    font-size: 5em;
+    width: fit-content;
+    margin: auto;
+}
+
+/*profile*/
+.prof-block {
+    display: flex;
+}
+
+.prof-left-block {
+    width: 10em;
+}
+
+/*skills*/
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-wrapper li{
+    width: 33%;
+    list-style: none;
+    border: 1px red dashed;
+    text-align: center;
+}
+
+.skills-wrapper li img, i{
+    max-width: 80%;
+    height: 40%;
+    border: 1px red dashed;
+}
+
+.skill-title {
+    margin: 0;
+}
+
+.skill-text-block p {
+    margin: 0;
+}
+
+.star5_rating{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    white-space: nowrap;
+    color: #CCCCCC; /* グレーカラー 自由に設定化 */
+    /*font-size: 30px; フォントサイズ 自由に設定化 */
+}
+
+.star5_rating:before, .star5_rating:after{
+    content: '★★★★★';
+}
+
+.star5_rating:after{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ffcf32; /* イエローカラー 自由に設定化 */
+}
+
+.star5_rating[data-rate="5"]:after{ width: 100%; }
+.star5_rating[data-rate="4.5"]:after{ width: 90%; }
+.star5_rating[data-rate="4"]:after{ width: 80%; }
+.star5_rating[data-rate="3.5"]:after{ width: 70%; }
+.star5_rating[data-rate="3"]:after{ width: 60%; }
+.star5_rating[data-rate="2.5"]:after{ width: 50%; }
+.star5_rating[data-rate="2"]:after{ width: 40%; }
+.star5_rating[data-rate="1.5"]:after{ width: 30%; }
+.star5_rating[data-rate="1"]:after{ width: 20%; }
+.star5_rating[data-rate="0.5"]:after{ width: 10%; }
+.star5_rating[data-rate="0"]:after{ width: 0%; }
