@@ -7,34 +7,254 @@
 	<title>Progate</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
 </head>
 
 <body>
 	<header>
-		<p class="header-font">this is header</p>
-	</header>
-	<div class="main-side-space">
-		<!--top-->
-		<div>
-			<img src="images/29905300_m.jpg" width="100%">
+		<div class="header-wrapper">
+			<p class="header-name">HAYATE KAWATOKO</p>
+			<div class="link-block">
+				<a href="#profile">PROFILE</a>
+				<a href="#skills">SKILLS</a>
+				<a href="#works">WORKS</a>
+			</div>
 		</div>
+	</header>
+	<!--top-->
+	<div>
+		<img src="images/france1.jpg" class="top-image">
+	</div>
+	<div class="main-side-space">
 		<!--profile-->
-		<div>
+		<div id="profile">
 			<h2 class="heading">PROFILE</h2>
 			<div class="prof-block">
-				<div class="prof-left-block">
-					<img src="images/prof.png" width="100%">
-				</div>
 				<div class="prof-right-block">
-					<p>testmessage</p>
+					<p>NAME</p>
+					<p>
+						( 京都生まれ / 長崎県大村市在住 / 29歳 / 多趣味 )<br>
+						testmessage<br>
+						testmessagetestmessage<br>
+						testmessagetestmessage<br>
+						testmessage<br>
+						testmessagetestmessage<br>
+						testmessagetestmessage<br>
+						testmessage<br>
+						testmessage<br>
+						testmessage<br>
+					</p>
 				</div>
+				<div class="prof-left-block">
+					<img src="images/prof4.jpg">
+				</div>
+				
 			</div>
 		</div>
 		<!--skills-->
-		<div>
+		<div id="skills">
 			<h2 class="heading">SKILLS</h2>
-			<ul class="skills-wrapper">
-				<li>
+			<p class="skill-type">FRONTEND</p>
+			<p class="skill-type-message">レスポンシブデザインも可能です</p>
+			<div class="skills-block">
+				<ul class="slide-items skills-items">
+					<li>
+						<img src="images/HTML.png">
+						<p class="skill-title">HTML</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/CSS.png">
+						<p class="skill-title">CSS</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/tailwind.png">
+						<p class="skill-title">Tailwind</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/daisyUI.png">
+						<p class="skill-title">daisyUI</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/javascript.png">
+						<p class="skill-title">JavaScript</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/jQuery.png">
+						<p class="skill-title">jQuery</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/Typescript.png">
+						<p class="skill-title">Typescript</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/Vuejs.png">
+						<p class="skill-title">Vue.js</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="skills-list">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Tailwind</li>
+					<li>daisyUI</li>
+					<li>JavaScript</li>
+					<li>jQuery</li>
+					<li>TypeScript</li>
+					<li>Vue.js</li>
+				</ul>
+			</div>
+			<p class="skill-type">BACKEND</p>
+			<div class="skills-block">
+				<ul class="slide-items skills-items">
+					<li>
+						<img src="images/php.png">
+						<p class="skill-title">PHP</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/Laravel.png">
+						<p class="skill-title">Laravel</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/Livewire.png">
+						<p class="skill-title">livewire</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="skills-list">
+					<li>PHP</li>
+					<li>Laravel</li>
+					<li>livewire</li>
+				</ul>
+			</div>
+			<p class="skill-type">OTHERS</p>
+			<div class="skills-block">
+				<ul class="slide-items skills-items">
+					<li>
+						<img src="images/MySQL.png">
+						<p class="skill-title">MySQL</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/PostgreSQL.png">
+						<p class="skill-title">PostgreSQL</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/git.png">
+						<p class="skill-title">Git</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/docker.png">
+						<p class="skill-title">docker</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+					<li>
+						<img src="images/API.png">
+						<p class="skill-title">API</p>
+						<span class="star5_rating" data-rate="4.5"></span>
+						<div class="skill-text-block">
+							<p>message</p>
+							<p>message</p>
+							<p>message</p>
+						</div>
+					</li>
+				</ul>
+				<ul class="skills-list">
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+					<li>Git</li>
+					<li>Docker</li>
+					<li>API</li>
+				</ul>
+			</div>
+			<ul class="skills-items">
+				<!-- <li>
 					<img src="images/HTML.png">
 					<p class="skill-title">HTML</p>
 					<span class="star5_rating" data-rate="4.5"></span>
@@ -63,147 +283,23 @@
 						<p>message</p>
 						<p>message</p>
 					</div>
-				</li>
-				<li>
-					<img src="images/jQuery.png">
-					<p class="skill-title">jQuery</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/tailwind.png">
-					<p class="skill-title">Tailwind</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/php.png">
-					<p class="skill-title">PHP</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/Laravel.png">
-					<p class="skill-title">Laravel</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/MySQL.png">
-					<p class="skill-title">MySQL</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/git.png">
-					<p class="skill-title">Git</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/API.png">
-					<p class="skill-title">API</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/Vuejs.png">
-					<p class="skill-title">Vue.js</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/Typescript.png">
-					<p class="skill-title">Typescript</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/docker.png">
-					<p class="skill-title">docker</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/Livewire.png">
-					<p class="skill-title">livewire</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/PostgreSQL.png">
-					<p class="skill-title">PostgreSQL</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
-				<li>
-					<img src="images/daisyUI.png">
-					<p class="skill-title">daisyUI</p>
-					<span class="star5_rating" data-rate="4.5"></span>
-					<div class="skill-text-block">
-						<p>message</p>
-						<p>message</p>
-						<p>message</p>
-					</div>
-				</li>
+				</li> -->
+				
+				
+				
 			</ul>
 		</div>
 		<!--works-->
-		<div>
+		<div id="works">
 			<h2 class="heading">WORKS</h2>
 			過去に参画したプロジェクトで作成したページの再現
 		</div>
 	</div>
 	<footer>
-		footer
+		<p>footer</p>
 	</footer>
 </body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="main.js"></script>
 </html>
