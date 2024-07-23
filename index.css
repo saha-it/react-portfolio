@@ -1,43 +1,178 @@
-.header-font {
-    color: red;
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho'); */
+
+
+/*header name*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/*link block*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+/*heading*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+/*skill type*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    /* background: linear-gradient(to right, #ffb03c, #ff708d); */
+    /* background: #F5E7B2; */
+    background: linear-gradient(to right, #F5E7B2, #E0A75E);
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+
+}
+
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;/*fixedで固定*/
+    z-index: 100;
+    /* top: 0; */
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+.header-name {
+    margin-left: 2em;
+    font-family: "Satisfy", cursive;
+}
+
+.link-block {
+    display: flex;
+    align-items: center;
+    font-family: "Alfa Slab One", serif;
+    position: fixed;
+    right: 5em;
+    top: 1em;
+}
+
+.link-block a {
+    margin-left: 2em;
+    color: #973131;
+    text-decoration: none;
 }
 
 .main-side-space {
     margin: 0 3em;
 }
 
+/*TOP*/
+.top-image {
+    width: 100%;
+    object-fit: cover;
+    height: 46.5em;
+}
+
 .heading {
     font-size: 5em;
+    color: #973131;
+    font-family: "Dancing Script", cursive;
     width: fit-content;
     margin: auto;
 }
 
 /*profile*/
 .prof-block {
-    display: flex;
+    /* display: flex; */
+    width: fit-content;
+    margin:auto;
 }
 
 .prof-left-block {
-    width: 10em;
+    
+}
+
+.prof-left-block img {
+    width: 40em;
+}
+
+.prof-right-block {
+    margin-left: 15em;
+    margin-top: -12em;
+    width: 30em;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    top: 15em;
 }
 
 /*skills*/
-.skills-wrapper {
+/* .skills-items {
     display: flex;
     flex-wrap: wrap;
+} */
+
+.skill-type {
+    font-size: 3em;
+    width: fit-content;
+    margin: auto;
+    font-family: "Indie Flower", cursive;
 }
 
-.skills-wrapper li{
-    width: 33%;
+.skill-type-message {
+    width: fit-content;
+    margin: 0 auto 2em;
+}
+
+.skills-block {
+    /* display: flex; */
+    width: 35em;
+    margin: 0 auto 4em;
+}
+
+.skills-block > .right {
+    margin-left: 10em;
+}
+
+.skills-list {
+    width: 30em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+/* .skills-list li {
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    width: fit-content;
+    height: 1em;
+} */
+
+.skills-list li {
+    background-color: #FFFFFF;
+    border-radius: .6em;
+    width: fit-content;
+    padding: .5em;
+    margin: 0 1em 1em 0;
+    list-style: none;
+}
+
+.skills-items {
+    margin: 0 auto 2em;
+}
+
+.skills-items li{
     list-style: none;
     border: 1px red dashed;
     text-align: center;
+    background-color: #FFFFFF;
+    height: 13em;
 }
 
-.skills-wrapper li img, i{
-    max-width: 80%;
-    height: 40%;
+.skills-items li img {
+    /* max-width: 80%; */
+    /* height: 40%; */
     border: 1px red dashed;
+    height: 5em;
+    width: 10em;
+    object-fit: contain;
 }
 
 .skill-title {
@@ -82,3 +217,29 @@
 .star5_rating[data-rate="1"]:after{ width: 20%; }
 .star5_rating[data-rate="0.5"]:after{ width: 10%; }
 .star5_rating[data-rate="0"]:after{ width: 0%; }
+
+
+
+.slide-items {
+    width: 15em;
+    height: 30%;
+    border: 1px red dashed;
+    /* margin: auto; */
+  }
+  
+  .slide-items img {
+    width: 30%;
+    border: 1px red dashed;
+    object-fit: cover;
+    margin: auto;
+  }
+
+footer {
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+}
+
+footer p {
+    color: #FFFFFF;
+}
