@@ -22,10 +22,7 @@ ul {
     padding: 0;
 }
 
-a {
-
-}
-
+/*header*/
 header {
     background-color: #FFFFFF;
     width: 100%;
@@ -69,6 +66,10 @@ header {
     height: 46.5em;
 }
 
+.section-wapper {
+    margin-bottom: 10em;
+}
+
 .heading {
     font-size: 5em;
     color: #973131;
@@ -93,7 +94,7 @@ header {
 }
 
 .prof-right-block {
-    margin-left: 15em;
+    margin-left: 20em;
     margin-top: -12em;
     width: 30em;
     background-color: #FFFFFF;
@@ -113,6 +114,7 @@ header {
     width: fit-content;
     margin: auto;
     font-family: "Indie Flower", cursive;
+    font-weight: bolder;
 }
 
 .skill-type-message {
@@ -173,6 +175,7 @@ header {
     height: 5em;
     width: 10em;
     object-fit: contain;
+    margin: auto;
 }
 
 .skill-title {
@@ -220,19 +223,7 @@ header {
 
 
 
-.slide-items {
-    width: 15em;
-    height: 30%;
-    border: 1px red dashed;
-    /* margin: auto; */
-  }
-  
-  .slide-items img {
-    width: 30%;
-    border: 1px red dashed;
-    object-fit: cover;
-    margin: auto;
-  }
+
 
 footer {
     background-color: #000000;
@@ -243,3 +234,47 @@ footer {
 footer p {
     color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slick-------------------*/
+.slick-slide {
+    margin: 0 .3em 0; 
+}
+/* arrow */
+/* dots */
+.slick-dots{
+bottom: -25px;
+}
+.slick-dots li,
+.slick-dots li button,
+.slick-dots li button::before{
+width: 12px;
+height: 12px;
+}
+.slick-dots li{
+margin: 0 7px;
+}
+.slick-dots li button{
+background-color: #fff;
+opacity: .8;
+border-radius: 100%;
+}
+.slick-dots li.slick-active button{
+/* opacity: .4; */
+}
+.slick-dots li button::before{
+content: '';
+}
+
