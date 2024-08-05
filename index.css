@@ -361,6 +361,10 @@ footer p {
         font-size: 3rem;
     }
 
+    .link-block {
+        right: 2em;
+    }
+
     .section-wapper {
         padding-bottom: 4rem;
     }
