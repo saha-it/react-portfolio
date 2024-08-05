@@ -10,6 +10,3 @@ jsAccordion.forEach(function(element) {
     element.classList.toggle('is-accordion--open');
   });
 });
-
-
-$('.single-item').slick();
