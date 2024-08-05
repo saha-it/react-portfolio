@@ -10,9 +10,9 @@ $('.js-slick').slick({
     centerPadding: '80px',
     responsive: [
       {
-        breakpoint: 720,
+        breakpoint: 769,
         settings: {
-          slidesToShow: 1,
+          centerMode: false,
         }
       }
     ]

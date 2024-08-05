@@ -365,25 +365,32 @@ footer p {
         right: 2em;
     }
 
+    .link-block a {
+        font-size: 70%;
+    }
+
     .section-wapper {
         padding-bottom: 4rem;
     }
 
     /*profile*/
+    .prof-left-block {
+        text-align: center;
+    }
+
     .prof-left-block img {
-        width: 100%;
+        width: 90%;
     }
 
     .prof-right-block {
         position: initial;
-        padding: 2em 2em;
-        margin-top: 0;
-        margin-left: 0;
-        width: 85%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+        width:80%;
     }
 
     .prof-right-block p {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     /*skills*/
@@ -407,5 +414,16 @@ footer p {
 
     .works-block img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .link-block {
+        position: initial;
+        margin: auto;
+    }
+
+    .slick-dots {
+        top: 15rem;
     }
 }
