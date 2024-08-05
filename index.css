@@ -119,15 +119,15 @@ header {
 
 .prof-right-block {
     padding: 2em 5em;
-    margin-left: 20em;
+    margin-left: 20%;
     margin-top: -12em;
-    width: 30em;
+    width: 25em;
     color: #FFFFFF;
     background: #1b3851;
     opacity: 0.95;
     position: relative;
     z-index: 10;
-    top: 25em;
+    top: 5em;
 
     /*追加*/
     opacity: 0;
@@ -150,10 +150,6 @@ header {
 #skills {
     /* background-color: #F9D689; */
 }
-/* .skills-items {
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .skill-type {
     font-size: 3em;
@@ -298,6 +294,10 @@ header {
     margin: auto;
 }
 
+.works-block-wrapper div:nth-child(1) {
+    margin-right: 3rem;
+}
+
 .works-block{
     width: 20em;
 }
@@ -319,46 +319,89 @@ footer p {
     color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*slick-------------------*/
 .slick-slide {
     margin: 0 .3em 0; 
 }
+
 /* arrow */
 /* dots */
 .slick-dots{
-bottom: -25px;
+    bottom: -25px;
 }
+
 .slick-dots li,
 .slick-dots li button,
 .slick-dots li button::before{
-width: 12px;
-height: 12px;
+    width: 12px;
+    height: 12px;
 }
+
 .slick-dots li{
-margin: 0 7px;
+    margin: 0 7px;
 }
+
 .slick-dots li button{
-background-color: #fff;
-opacity: .8;
-border-radius: 100%;
+    background-color: #fff;
+    opacity: .8;
+    border-radius: 100%;
 }
+
 .slick-dots li.slick-active button{
 /* opacity: .4; */
 }
+
 .slick-dots li button::before{
-content: '';
+    content: '';
 }
 
+/*768px以下*/
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 3rem;
+    }
+
+    .section-wapper {
+        padding-bottom: 4rem;
+    }
+
+    /*profile*/
+    .prof-left-block img {
+        width: 100%;
+    }
+
+    .prof-right-block {
+        position: initial;
+        padding: 2em 2em;
+        margin-top: 0;
+        margin-left: 0;
+        width: 85%;
+    }
+
+    .prof-right-block p {
+        font-size: 0.8rem;
+    }
+
+    /*skills*/
+    .skills-block {
+        width: 80%;
+    }
+
+    .skills-list {
+        width: auto;
+    }
+
+    /*works*/
+    .works-block {
+        width: auto;
+        margin-bottom: 3rem;
+    }
+
+    .works-block-wrapper div:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .works-block img {
+        width: 100%;
+    }
+}
