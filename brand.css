@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 button {
     border: none;
 }
@@ -6,23 +10,109 @@ ul {
     padding-inline-start: 0px;
 }
 
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*header*/
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;/*fixedで固定*/
+    z-index: 100;
+    /* top: 0; */
+    border-bottom: 1px solid #000;
+}
+
+.header-wrapper {
+    display: flex;
+}
+
+.header-name {
+    margin-left: 2em;
+    font-family: "Satisfy", cursive;
+    font-size: 1.4rem;
+    align-self: center;
+    height: fit-content;
+}
+
+.link-block {
+    align-self: center;
+    height: fit-content;
+    margin: 0 3%;
+}
+
+.header-button-wrapper {
+    display: contents;
+}
+
+.header-button {
+    text-align: center;
+    align-self: center;
+}
+
+.header-button p {
+    border-radius: .5em;
+    padding: .5em;
+    color: #fff;
+}
+
+/*TOP*/
+.top {
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+    z-index: 10;
+}
+
+.single-item .slick-prev {
+    left: 25px;
+    z-index: 100;
+}
+
+.single-item .slick-next {
+    right: 25px;
+    z-index: 100;
+}
+
+.single-item .slick-prev::before,
+.single-item .slick-next::before{
+  font-size:30px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+section {
+    margin-bottom: 5em;
+}
+
 .section-title {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-.section-title + h3, p {
+.section-title + h3 {
+    text-align: center;
+}
+
+.section-title + h3 + p {
     text-align: center;
 }
 
 /*Items*/
 .items-main-block {
     text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .items-main-block img {
-    width: 60em;
+    width: 80%;
     height: 20em;
     object-fit: cover;
 }
@@ -30,22 +120,54 @@ ul {
 .items-sub-block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    width: 60em;
+    justify-content: space-between;
+    width: 80%;
     margin: auto;
 }
 
 .items-sub-block img {
-    width: 29em;
+    width: 49%;
     height: 20em;
-    object-fit: fill;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+}
+
+/*advantage*/
+.advantage-block {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    background-color: #000; /* カラーフィルタ効果の色を指定 */
+    margin-bottom: 2em;
+}
+
+.advantage-text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    text-align: center;
+}
+
+.advantage-text-block p {
+    color: #fff;
+    font-size: 1.6em;
+    width: 30rem;
+}
+
+#advantage img {
+    width: 100%;
+    opacity: 0.6;    /* カラーフィルタ効果の度合いを指定(※) */
 }
 
 /*FAQ*/
 .faq-wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 60em;
+    width: 90%;
     margin: auto;
     justify-content: space-around;
 }
@@ -57,7 +179,7 @@ ul {
 
 .question-block{
     position: relative;
-    width: 30em;
+    width: 30rem;
 }
 
 .question-block p {
@@ -103,7 +225,7 @@ ul {
     overflow:hidden;
     transition:.4s ease;
     font-size: 0.9em;
-    margin-left: .5em;
+    padding-left: .5em;
 }
 
 .answer-block p {
@@ -113,4 +235,85 @@ ul {
 .question-block.is-accordion--open + .answer-block{
     height: auto;
     opacity: 1;
+    border-bottom: 1px solid #000;
+}
+
+/*footer*/
+.footer-wrapper {
+    background-color: #000;
+}
+
+.footer-title {
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+}
+
+.footer-link-wrapper {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.footer-link-block {
+    width: 10em;
+    margin-right: 1em;
+}
+
+.footer-link-type {
+    color: #fff;
+    border-bottom: 1px #fff solid;
+}
+
+.footer-link-block p {
+    color: #fff;
+    margin: .5em 0;
+}
+
+/*768px以下*/
+@media screen and (max-width: 768px) {
+    /*header*/
+    .header-wrapper {
+        display: block;
+    }
+
+    .link-block {
+        margin: 0 0 0 9%;
+    }
+
+    .header-button-wrapper {
+        display: flex;
+        margin-left: 9%;
+    }
+
+    /*top*/
+    .top {
+        padding-top: 12rem;
+    }
+
+    /*advantage*/
+    .advantage-text-block p {
+        font-size: 80%;
+        width: 20rem;
+    }
+
+    /*faq*/
+    .question-block {
+        width: 20rem;
+    }
+
+    /*footer*/
+    .footer-wrapper {
+        font-size: 1.3rem;
+        padding: 2rem 0;
+    }
+
+    .footer-link-wrapper {
+        display: block;
+    }
+
+    .footer-link-block {
+        width: 16rem;
+        margin: 0 0 1rem 0;
+    }
 }
