@@ -20,6 +20,11 @@
 	100% {opacity: 1;}
 }
 
+html { 
+    scroll-behavior: smooth;
+    scroll-padding-top: 3em;
+}
+
 body {
     /* background:  linear-gradient(90deg, #58c6ff 0%, #fffef0 40%, #b8c3ff 80%); */
     margin: 0;
@@ -300,6 +305,14 @@ header {
 
 .works-block{
     width: 20em;
+}
+
+.works-block a {
+    font-size: 0.8rem;
+}
+
+.works-block p {
+    font-size: 0.8rem;
 }
 
 .works-block img{
