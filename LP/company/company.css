@@ -480,6 +480,10 @@ footer p:nth-child(2) {
     }
 
     /*about*/
+    #about {
+        padding-bottom: 1em;
+    }
+
     #about > .flex-box {
         display: block;
         width: auto;
@@ -593,4 +597,50 @@ footer p:nth-child(2) {
         width: 90%;
         margin: auto;
     }
-  }
+}
+
+@media screen and (max-width: 414px) {
+    .top-text-block {
+        font-size: 0.6rem;
+    }
+
+    .about-right-block-subtitle p:nth-child(1) {
+        font-size: 1.5em;
+    }
+
+    #theme .flex-box {
+        margin-left: 1em;
+    }
+
+    .theme-left-block {
+        width: 100%;
+    }
+
+    .theme-left-block-text {
+        margin-left: 1em;
+    }
+
+    .theme-text {
+        width: 16em;
+    }
+
+    .theme-block img {
+        width: 16em;
+    }
+
+    .theme-right-block {
+        width: 100%;
+    }
+
+    .theme-right-block > img {
+        margin-left: 1em;
+    }
+
+    .theme-right-block-text {
+        top: 8em;
+    }
+
+    .theme-right-block-text > p {
+        left: 4.6em;
+    }
+}
