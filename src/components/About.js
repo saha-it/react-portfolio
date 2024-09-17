@@ -7,9 +7,9 @@ function About() {
                 <div class="section-wapper" id="profile">
                     <h2 class="heading">about</h2>
                     <div class="prof-block">
-                        <div class="prof-left-block fadein">
+                        {/* <div class="prof-left-block fadein">
                             <img src="images/prof2.jpg"></img>
-                        </div>
+                        </div> */}
                         <div class="prof-right-block fadein">
                             <h3>川床　颯</h3>
                             <p>( 鹿児島生まれ / 神奈川県横浜市在住 / 28歳 )</p>
