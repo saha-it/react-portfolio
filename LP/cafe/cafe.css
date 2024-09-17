@@ -1,0 +1,169 @@
+/*recommend-message*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Mochiy+Pop+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+section h2 {
+    width: fit-content;
+    margin: auto;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0;
+}
+
+.bg-1 {
+    background-color: #f7cfdf;
+}
+
+.bg-2 {
+    background-color: #FFC0D9;
+}
+
+.bg-3 {
+    background-color: #ffffff;
+}
+
+.bg-pale-blue {
+    background-color: #f1f5d5;
+}
+
+.content-center {
+    width: fit-content;
+    margin: auto;
+}
+
+.section-padding {
+    padding-bottom: 3em;
+}
+
+.section-title {
+    padding: 2em 0;
+}
+
+/*TOP*/
+.top {
+}
+
+.top img {
+    width: 100%;
+}
+
+/*
+* RECOMMEND
+*/
+.recommend {
+    
+}
+
+.recommend-subtitle {
+    border-bottom: 10px rgb(255, 57, 57) dotted;
+    padding-top: 3em;
+}
+
+.recommend-point-wrapper {
+    margin-top: 3em;
+}
+
+.recommend-point-wrapper .one-by-one-explanation-block {
+    width: 30em;
+}
+
+.recommend-img {
+    border-radius: 10em;
+}
+
+.recommend-point {
+    background: linear-gradient(transparent 60%, rgb(255, 57, 57));
+    font-family: cursive;
+    font-size: 2.5em;
+}
+
+.recommend-point-block {
+    height: fit-content;
+    margin: auto;
+}
+
+.recommend-point-message {
+    font-family: "Mochiy Pop One", sans-serif;
+    color: #914F1E;
+    /* font-weight: bolder; */
+    font-size: 1.5em;
+}
+
+/**
+ * NEW MENU
+ */
+ .one-by-one-wrapper {
+    display: flex;
+ }
+
+.one-by-one-image-block {
+    
+}
+
+.one-by-one-image-block img {
+    width: 20em;
+}
+
+ .one-by-one-explanation-block {
+    width: 20em;
+    text-align: center;
+}
+
+/*
+* PRODUCTS
+*/
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50em;
+    margin: auto;
+}
+
+.product-block {
+    margin: 2em 5em;
+    text-align: center;
+}
+
+.product-block img {
+    width: 15em;
+    height: 20em;
+    object-fit: cover;
+}
+
+.product-block p {
+    margin-top: 1em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*STAFF*/
+.staff-wrapper {
+    text-align: center;
+}
+
+.staff-message {
+    margin-top: 1em;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*FOTTER*/
+footer {
+    background-color: #FFEBD4;
+}
