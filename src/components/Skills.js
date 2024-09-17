@@ -6,7 +6,7 @@ function Skills() {
             <section>
                 <div class="section-wapper" id="skills">
                     <h2 class="heading">skills</h2>
-                    <div class="skills-block-wrapper">
+                    {/* <div class="skills-block-wrapper">
                         <p class="skill-type">FRONTEND</p>
                         <ul class="skills-list">
                             <li>HTML</li>
@@ -258,7 +258,7 @@ function Skills() {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>

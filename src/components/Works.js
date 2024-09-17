@@ -6,7 +6,7 @@ function Works() {
             <section>
                 <div class="section-wapper" id="works">
                     <h2 class="heading">works</h2>
-                    <div class="works-block-wrapper">
+                    {/* <div class="works-block-wrapper">
                         <div class="works-block">
                             <img src="brand-images/clothing.jpg"></img>
                             <a href="./brand.html">
@@ -36,7 +36,7 @@ function Works() {
                                 <p>デザインの勉強として作成しました。</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </div>
