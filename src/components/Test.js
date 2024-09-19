@@ -22,8 +22,8 @@ function Test() {
                     onSlideChange={() => console.log("slide change")}
                     onSwiper={(swiper) => console.log(swiper)}
                 >
-                    {data.map((d) => (
-                        <SwiperSlide>
+                    {data.map((d, key) => (
+                        <SwiperSlide key={key}>
                             <div
                                 style={{ background: "grey", height: "300px" }}
                             >
