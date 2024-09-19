@@ -13,11 +13,14 @@ import Skills from "./components/Skills.js";
 import Works from "./components/Works.js";
 import Footer from "./components/Footer.js";
 
+import Sidebar from "./components/Sidebar.js";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <Header />
         <Top />
+        <Sidebar />
         <Test />
         <About />
         <Skills />
