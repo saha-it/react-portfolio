@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./main.js";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 /*画面表示ファイル読み込み*/
 import Top from "./components/Top";
@@ -19,13 +20,21 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <Header />
-        <Top />
+        {/* <Top /> */}
         <Sidebar />
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Top />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/works" element={<Works />} />
+            </Routes>
+        </BrowserRouter>
         <Test />
-        <About />
+        {/* <About />
         <Skills />
         <Works />
-        <Footer />
+        <Footer /> */}
     </React.StrictMode>
 );
 
