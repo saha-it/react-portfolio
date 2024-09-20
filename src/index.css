@@ -31,6 +31,7 @@ body {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 p {
@@ -105,6 +106,17 @@ header {
     margin: 0 auto 0.5em;
 }
 
+/*Sidebar*/
+#sidebar-wrapper {
+    position: fixed;
+    background-color: #d3ddff;
+    height: 100vh;
+    width: 10vw;
+    z-index: 10;
+    position: fixed;
+    top: 4rem;
+}
+
 /*TOP*/
 .top {
     margin-top: 4rem;
@@ -147,22 +159,16 @@ header {
     margin: auto;
 }
 
-.prof-left-block {
-    /*追加*/
-    opacity: 0;
-    visibility: hidden;
-    transition: all 2s;
-    /*ここでどこから出てくるか決める*/
-    transform: translateX(-10em);
+#prof-left-block {
 }
 
-.prof-left-block img {
+#prof-left-block img {
     width: 10em;
 }
 
 .prof-right-block {
     margin-left: 3em;
-    width: 2８em;
+    width: 28em;
     opacity: 0.95;
     z-index: 10;
     top: 5em;

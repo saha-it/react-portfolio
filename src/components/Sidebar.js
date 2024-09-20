@@ -4,17 +4,21 @@ import { SidebarData } from "./SidebarData";
 function Sidebar() {
     return (
         <div>
-            {SidebarData.map((value, key) => {
-                return (
-                    <li
-                        key={key}
-                        onClick={() => (window.location.pathname = value.link)}
-                    >
-                        <div>{value.icon}</div>
-                        <p>{value.title}</p>
-                    </li>
-                );
-            })}
+            <ul id="sidebar-wrapper">
+                {SidebarData.map((value, key) => {
+                    return (
+                        <li
+                            key={key}
+                            onClick={() =>
+                                (window.location.pathname = value.link)
+                            }
+                        >
+                            <div>{value.icon}</div>
+                            <p>{value.title}</p>
+                        </li>
+                    );
+                })}
+            </ul>
         </div>
     );
 }

@@ -2,18 +2,23 @@ import React from "react";
 
 export const SidebarData = [
     {
-        title: "testtitle",
+        title: "TOP",
         icon: "test",
-        link: "test",
+        link: "/",
     },
     {
-        title: "testtitle",
+        title: "ABOUT",
         icon: "test",
-        link: "test",
+        link: "/about",
     },
     {
-        title: "testtitle",
+        title: "SKILLS",
         icon: "test",
-        link: "test",
+        link: "/skills",
+    },
+    {
+        title: "WORKS",
+        icon: "test",
+        link: "/works",
     },
 ];
