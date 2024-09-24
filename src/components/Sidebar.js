@@ -8,6 +8,7 @@ function Sidebar() {
                 {SidebarData.map((value, key) => {
                     return (
                         <li
+                            className="sidebar-link"
                             key={key}
                             onClick={() =>
                                 (window.location.pathname = value.link)
