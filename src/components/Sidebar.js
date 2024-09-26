@@ -14,8 +14,10 @@ function Sidebar() {
                                 (window.location.pathname = value.link)
                             }
                         >
-                            <div>{value.icon}</div>
-                            <p>{value.title}</p>
+                            <div className="sidebar-block">
+                                <div>{value.icon}</div>
+                                <p>{value.title}</p>
+                            </div>
                         </li>
                     );
                 })}

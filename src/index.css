@@ -104,12 +104,29 @@ header {
 /*Sidebar*/
 #sidebar-wrapper {
     position: fixed;
-    background-color: #d3ddff;
+    background-color: #fff;
     height: 100vh;
     width: 15vw;
     z-index: 10;
     position: fixed;
     top: 4rem;
+}
+
+.sidebar-block {
+    display: flex;
+}
+
+.sidebar-block p {
+    font-family: "Yeseva One", serif;
+    background: linear-gradient(
+        180deg,
+        #2f91c2 0%,
+        #239bb1 40%,
+        #087588 60%,
+        #d6cc70 80%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sidebar-link {
