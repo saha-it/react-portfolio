@@ -1,14 +1,11 @@
-/*link block*/
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-/*top name*/
-@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
-/*heading*/
+/*TODO 多分もう使ってないから消す*/
+/* @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
-/*skill type*/
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"); */
 
-/*多分これしか使っていない*/
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+/*sectionタイトル、サイドバー*/
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
 @keyframes loading {
     0% {
@@ -175,6 +172,7 @@ header {
     width: 28em;
     top: 5em;
     color: #fff;
+    font-family: "Yu Mincho", serif;
 }
 
 /*skills*/
