@@ -8,31 +8,32 @@ import {
     faBriefcase,
     faSquareEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+const APP_NAME = "react-portfolio";
 
 export const SidebarData = [
     {
         title: "TOP",
         icon: <FontAwesomeIcon icon={faHouse} />,
-        link: "/",
+        link: APP_NAME + "/",
     },
     {
         title: "ABOUT",
         icon: <FontAwesomeIcon icon={faUser} />,
-        link: "/about",
+        link: APP_NAME + "/about",
     },
     {
         title: "SKILLS",
         icon: <FontAwesomeIcon icon={faLaptopCode} />,
-        link: "/skills",
+        link: APP_NAME + "/skills",
     },
     {
         title: "WORKS",
         icon: <FontAwesomeIcon icon={faBriefcase} />,
-        link: "/works",
+        link: APP_NAME + "/works",
     },
     {
         title: "CONTACT",
         icon: <FontAwesomeIcon icon={faSquareEnvelope} />,
-        link: "/works",
+        link: APP_NAME + "/works",
     },
 ];
