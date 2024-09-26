@@ -92,7 +92,6 @@ header {
 
 .heading {
     font-size: 5em;
-    /* font-style: oblique; */
     background-color: #000000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
