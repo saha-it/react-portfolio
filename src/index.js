@@ -23,7 +23,7 @@ root.render(
         <div id="main-content">
             <BrowserRouter>
                 <Routes>
-                    <Route path="/react-portfolio" element={<Top />} />
+                    <Route path="/" element={<Top />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="/works" element={<Works />} />
