@@ -107,7 +107,7 @@ header {
     position: fixed;
     background-color: #d3ddff;
     height: 100vh;
-    width: 10vw;
+    width: 15vw;
     z-index: 10;
     position: fixed;
     top: 4rem;
@@ -115,6 +115,11 @@ header {
 
 .sidebar-link {
     cursor: pointer;
+}
+
+#main-content {
+    width: 85vw;
+    margin-left: 15vw;
 }
 
 /*TOP*/

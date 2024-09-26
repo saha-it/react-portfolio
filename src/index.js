@@ -21,14 +21,17 @@ root.render(
     <React.StrictMode>
         <Header />
         <Sidebar />
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Top />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/skills" element={<Skills />} />
-                <Route path="/works" element={<Works />} />
-            </Routes>
-        </BrowserRouter>
+        <div id="main-content">
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Top />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/skills" element={<Skills />} />
+                    <Route path="/works" element={<Works />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+
         {/* <Test /> */}
     </React.StrictMode>
 );
