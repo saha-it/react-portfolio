@@ -20,7 +20,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <Header />
-        {/* <Top /> */}
         <Sidebar />
         <BrowserRouter>
             <Routes>
@@ -31,10 +30,6 @@ root.render(
             </Routes>
         </BrowserRouter>
         <Test />
-        {/* <About />
-        <Skills />
-        <Works />
-        <Footer /> */}
     </React.StrictMode>
 );
 
