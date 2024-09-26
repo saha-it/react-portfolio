@@ -13,7 +13,7 @@ export const SidebarData = [
     {
         title: "TOP",
         icon: <FontAwesomeIcon icon={faHouse} />,
-        link: "/react-portfolio",
+        link: "/",
     },
     {
         title: "ABOUT",
