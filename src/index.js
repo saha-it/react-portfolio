@@ -3,25 +3,33 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./main.js";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 /*画面表示ファイル読み込み*/
 import Top from "./components/Top";
 import Header from "./components/Header.js";
-import Test from "./components/Test.js";
 import About from "./components/About.js";
 import Skills from "./components/Skills.js";
 import Works from "./components/Works.js";
 import Footer from "./components/Footer.js";
 
+import Sidebar from "./components/Sidebar.js";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <Header />
-        <Top />
-        <Test />
-        <About />
-        <Skills />
-        <Works />
+        <Sidebar />
+        <div id="main-content">
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/react-portfolio" element={<Top />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/skills" element={<Skills />} />
+                    <Route path="/works" element={<Works />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
         <Footer />
     </React.StrictMode>
 );
