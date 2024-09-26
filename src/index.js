@@ -16,6 +16,7 @@ import Footer from "./components/Footer.js";
 import Sidebar from "./components/Sidebar.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const APP_NAME = "react-portfolio";
 root.render(
     <React.StrictMode>
         <Header />
@@ -23,10 +24,10 @@ root.render(
         <div id="main-content">
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Top />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/skills" element={<Skills />} />
-                    <Route path="/works" element={<Works />} />
+                    <Route path={APP_NAME + "/"} element={<Top />} />
+                    <Route path={APP_NAME + "/about"} element={<About />} />
+                    <Route path={APP_NAME + "/skills"} element={<Skills />} />
+                    <Route path={APP_NAME + "/works"} element={<Works />} />
                 </Routes>
             </BrowserRouter>
         </div>
