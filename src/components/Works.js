@@ -23,7 +23,7 @@ function Works() {
                                         ></img>
                                     </div>
                                     <div className="works-text-block">
-                                        <a href="LP/company/company.html">
+                                        <a target="_blank" href={value.link}>
                                             {value.link_title}
                                         </a>
                                         <p>{value.message}</p>

@@ -31,9 +31,9 @@ export const SidebarData = [
         icon: <FontAwesomeIcon icon={faBriefcase} />,
         link: APP_NAME + "/works",
     },
-    {
+    /* {
         title: "CONTACT",
         icon: <FontAwesomeIcon icon={faSquareEnvelope} />,
         link: APP_NAME + "/works",
-    },
+    }, */
 ];
