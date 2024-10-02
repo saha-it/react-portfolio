@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.97ff0395.css",
-    "main.js": "/react-portfolio/static/js/main.2a4776a4.js",
+    "main.css": "/react-portfolio/static/css/main.7fa4310f.css",
+    "main.js": "/react-portfolio/static/js/main.acb506a8.js",
     "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
     "static/media/mock-company-sp.png": "/react-portfolio/static/media/mock-company-sp.034342295dac747ed610.png",
     "static/media/mock-company-pc.png": "/react-portfolio/static/media/mock-company-pc.d2f67fccf447ee2d9223.png",
@@ -19,12 +19,12 @@
     "static/media/Livewire.png": "/react-portfolio/static/media/Livewire.dd53427b5383cf816e7d.png",
     "static/media/Typescript.png": "/react-portfolio/static/media/Typescript.bb13ebd9561a6ee645c2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.97ff0395.css.map": "/react-portfolio/static/css/main.97ff0395.css.map",
-    "main.2a4776a4.js.map": "/react-portfolio/static/js/main.2a4776a4.js.map",
+    "main.7fa4310f.css.map": "/react-portfolio/static/css/main.7fa4310f.css.map",
+    "main.acb506a8.js.map": "/react-portfolio/static/js/main.acb506a8.js.map",
     "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97ff0395.css",
-    "static/js/main.2a4776a4.js"
+    "static/css/main.7fa4310f.css",
+    "static/js/main.acb506a8.js"
   ]
 }
