@@ -52,40 +52,6 @@ header {
     display: none;
 }
 
-/* .header-wrapper {
-    display: flex;
-    height: 4rem;
-}
-
-.header-name {
-    margin: auto 2em;
-    font-family: "Yeseva One", serif;
-}
-
-.link-block {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    right: 5em;
-    top: 1.6em;
-}
-
-.link-block a {
-    margin-left: 2em;
-    background: linear-gradient(
-        180deg,
-        #2f91c2 0%,
-        #239bb1 40%,
-        #087588 60%,
-        #d6cc70 80%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Yeseva One", serif;
-    font-weight: normal;
-    text-decoration: none;
-} */
-
 .section-wapper {
     padding: 5em 0;
 }
@@ -105,12 +71,11 @@ header {
 #sidebar-wrapper {
     position: fixed;
     background-color: transparent;
-    /* background-color: rgba(255, 255, 255, 0); */
     height: 100vh;
     width: 15vw;
     z-index: 10;
     position: fixed;
-    top: 4rem;
+    top: 8rem;
     left: 2rem;
 }
 
@@ -118,6 +83,10 @@ header {
     display: flex;
     color: #fff;
     margin-bottom: 1rem;
+}
+
+.sidebar-block:hover {
+    color: #000000;
 }
 
 .sidebar-block div {
@@ -138,17 +107,18 @@ header {
 }
 
 /*TOP*/
-.top {
-    height: 46.5em;
+#top {
     background: linear-gradient(
         180deg,
         #2f91c2 0%,
         #239bb1 40%,
         #087588 60%,
-        #d6cc70 80%
+        #057185 80%,
+        #d6cc70 100%
     );
     filter: blur(100px);
     animation: blur-anim 1.5s linear forwards;
+    padding-bottom: 20em;
 }
 
 @keyframes blur-anim {
@@ -161,6 +131,24 @@ header {
     color: #fff;
     font-family: "Yeseva One", serif;
     font-size: 6.5rem;
+    width: 60vw;
+    margin: auto;
+    padding-top: 1em;
+}
+
+#info-wrapper {
+    width: 60vw;
+    margin: auto;
+    color: #fff;
+    font-family: "Yu Mincho", serif;
+}
+
+.info-block {
+    padding-bottom: 4em;
+}
+
+.info-title {
+    margin-right: 0.5em;
 }
 
 /*profile*/
@@ -212,7 +200,6 @@ header {
 }
 
 .skills-block {
-    /* display: flex; */
     width: 35em;
     margin: 0 auto 4em;
 }
@@ -229,15 +216,7 @@ header {
     justify-content: center;
 }
 
-/* .skills-list li {
-    background-color: #FFFFFF;
-    border-radius: 1em;
-    width: fit-content;
-    height: 1em;
-} */
-
 .skills-list li {
-    /* background-color: #FFFFFF; */
     background: #ebf4f6;
     border-radius: 0.6em;
     width: fit-content;
@@ -268,18 +247,13 @@ header {
 
 .skills-items li {
     list-style: none;
-    /* border: 1px red dashed; */
     text-align: center;
-    /* background-color: #FFFFFF; */
     background: #ebf4f6;
     height: 15em;
     border-radius: 1em;
 }
 
 .skills-items li img {
-    /* max-width: 80%; */
-    /* height: 40%; */
-    /* border: 1px red dashed; */
     height: 5em;
     width: 10em;
     object-fit: contain;
@@ -302,7 +276,6 @@ header {
     display: inline-block;
     white-space: nowrap;
     color: #cccccc; /* グレーカラー 自由に設定化 */
-    /*font-size: 30px; フォントサイズ 自由に設定化 */
 }
 
 .star5_rating:before,
@@ -395,10 +368,7 @@ header {
 }
 
 .mock-img-block {
-    /* width: 30em; */
     display: flex;
-    /* height: 30em; */
-    /* object-fit: cover; */
 }
 
 .mock-pc {
@@ -426,48 +396,12 @@ footer p {
     font-family: "Yeseva One", serif;
 }
 
-/*slick-------------------*/
-.slick-slide {
-    margin: 0 0.3em 0;
-}
-
-/* arrow */
-/* dots */
-.slick-dots {
-    bottom: -25px;
-}
-
-.slick-dots li,
-.slick-dots li button,
-.slick-dots li button::before {
-    width: 12px;
-    height: 12px;
-}
-
-.slick-dots li {
-    margin: 0 7px;
-}
-
-.slick-dots li button {
-    background-color: #fff;
-    opacity: 0.8;
-    border-radius: 100%;
-}
-
-.slick-dots li.slick-active button {
-    /* opacity: .4; */
-}
-
-.slick-dots li button::before {
-    content: "";
-}
-
-/*768px以下*/
-@media screen and (max-width: 768px) {
+/*960px以下*/
+@media screen and (max-width: 960px) {
     header {
         background: #fff;
         width: 100%;
-        position: fixed; /*fixedで固定*/
+        position: fixed;
         z-index: 100;
         top: 0;
         display: inline;
@@ -483,40 +417,70 @@ footer p {
         font-family: "Yeseva One", serif;
     }
 
-    .link-block {
-        display: flex;
-        align-items: center;
-        position: fixed;
-        right: 5em;
-        top: 1.6em;
-    }
-
-    .link-block a {
-        margin-left: 2em;
-        background: linear-gradient(
-            180deg,
-            #2f91c2 0%,
-            #239bb1 40%,
-            #087588 60%,
-            #d6cc70 80%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: "Yeseva One", serif;
-        font-weight: normal;
-        text-decoration: none;
-    }
-
     .heading {
         font-size: 3rem;
     }
 
-    .link-block {
-        right: 2em;
+    /*ハンバーガーメニュー*/
+    /*ボタンの位置とサイズ*/
+    .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        right: 30px;
+        top: 20px;
     }
 
-    .link-block a {
-        font-size: 70%;
+    /* バーガボタンのバーのスタイル */
+    .bm-burger-bars {
+        background: #373a47;
+    }
+
+    /* バーガーボタンのホバー */
+    .bm-burger-bars-hover {
+        background: #2f91c2;
+    }
+
+    /* クロスボタンの位置とサイズ */
+    .bm-cross-button {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* クロスボタンのカラー・形状 */
+    .bm-cross {
+        background: #bdc3c7;
+    }
+
+    /* サイドバーのスタイル */
+    .bm-menu {
+        background: #373a47;
+        padding: 2.5em 1.5em 0;
+        font-size: 1.15em;
+    }
+
+    /* bubbleやelasticで必要なモーフの形状 */
+    .bm-morph-shape {
+        fill: #373a47;
+    }
+
+    /* メニューリストのラッパースタイル*/
+    .bm-item-list {
+        color: #b8b7ad;
+        padding: 0.8em;
+    }
+    /* オーバーレイ(overlay)のスタイリング */
+    .bm-overlay {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    /*PC表示でない時はサイドバーを消す*/
+    #sidebar-wrapper {
+        display: none;
+    }
+
+    .sidebar-block:hover {
+        color: #dc5f00;
     }
 
     .top {
