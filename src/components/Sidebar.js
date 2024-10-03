@@ -4,7 +4,7 @@ import { SidebarData } from "./SidebarData";
 function Sidebar() {
     return (
         <div>
-            <ul id="sidebar-wrapper">
+            <ul id="sidebar-wrapper" className="pc-only">
                 {SidebarData.map((value, key) => {
                     return (
                         <li
