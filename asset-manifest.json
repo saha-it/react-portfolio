@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7fa4310f.css",
-    "main.js": "/react-portfolio/static/js/main.acb506a8.js",
+    "main.css": "/react-portfolio/static/css/main.1dc30098.css",
+    "main.js": "/react-portfolio/static/js/main.307721cd.js",
     "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
     "static/media/mock-company-sp.png": "/react-portfolio/static/media/mock-company-sp.034342295dac747ed610.png",
     "static/media/mock-company-pc.png": "/react-portfolio/static/media/mock-company-pc.d2f67fccf447ee2d9223.png",
     "static/media/prof2.jpg": "/react-portfolio/static/media/prof2.d4e4b3c79b5d7890e898.jpg",
+    "static/media/prof5.jpg": "/react-portfolio/static/media/prof5.7907b975a42f8d24dbdd.jpg",
     "static/media/PostgreSQL.png": "/react-portfolio/static/media/PostgreSQL.205c6e1cf88f5fb991e4.png",
     "static/media/jQuery.png": "/react-portfolio/static/media/jQuery.5218d846e86fbcafcc5d.png",
     "static/media/CSS.png": "/react-portfolio/static/media/CSS.c083b18f4c5eb3e149ce.png",
@@ -19,12 +20,12 @@
     "static/media/Livewire.png": "/react-portfolio/static/media/Livewire.dd53427b5383cf816e7d.png",
     "static/media/Typescript.png": "/react-portfolio/static/media/Typescript.bb13ebd9561a6ee645c2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.7fa4310f.css.map": "/react-portfolio/static/css/main.7fa4310f.css.map",
-    "main.acb506a8.js.map": "/react-portfolio/static/js/main.acb506a8.js.map",
+    "main.1dc30098.css.map": "/react-portfolio/static/css/main.1dc30098.css.map",
+    "main.307721cd.js.map": "/react-portfolio/static/js/main.307721cd.js.map",
     "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fa4310f.css",
-    "static/js/main.acb506a8.js"
+    "static/css/main.1dc30098.css",
+    "static/js/main.307721cd.js"
   ]
 }
