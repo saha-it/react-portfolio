@@ -96,7 +96,7 @@ function Top() {
                             />
                             苦労した点
                         </p>
-                        <ul>
+                        <ul className="difficult-block">
                             <li>
                                 ①適切なライブラリの選択<br></br>
                                 例えばスライドショーを実装する際に元々はReact-slickというライブラリを使用していましたが、
