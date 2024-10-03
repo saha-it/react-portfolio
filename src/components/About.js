@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import prof_img from "../images/prof2.jpg";
+import prof_img_pc from "../images/prof2.jpg";
+import prof_img_sp from "../images/prof5.jpg";
 
 function About() {
     return (
@@ -16,7 +17,8 @@ function About() {
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 2 }}
                         >
-                            <img src={prof_img}></img>
+                            <img src={prof_img_pc} className="pc-only"></img>
+                            <img src={prof_img_sp} className="sp-only"></img>
                         </motion.div>
 
                         <motion.div
