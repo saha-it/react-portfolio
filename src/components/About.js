@@ -12,13 +12,11 @@ function About() {
                     <div class="prof-block">
                         <motion.div
                             id="prof-left-block"
-                            className=""
                             initial={{ opacity: 0, x: -100 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 2 }}
                         >
-                            <img src={prof_img_pc} className="pc-only"></img>
-                            <img src={prof_img_sp} className="sp-only"></img>
+                            <img src={prof_img_sp}></img>
                         </motion.div>
 
                         <motion.div
