@@ -142,18 +142,18 @@ header {
 
 #info-wrapper {
     width: 60vw;
-    margin: auto;
+    margin: 20vh auto 0;
     color: #fff;
     font-family: "Yu Mincho", serif;
 }
 
 .info-block {
-    padding-bottom: 4em;
+    padding-bottom: 6em;
 }
 
 .info-block p,
 .info-block li {
-    font-size: clamp(16px, 2.2vw, 24px);
+    font-size: clamp(16px, 1.2vw, 24px);
 }
 
 .difficult-block li {
@@ -174,7 +174,7 @@ header {
 }
 
 .prof-block {
-    display: flex;
+    /* display: flex; */
     width: fit-content;
     margin: auto;
 }
@@ -183,11 +183,11 @@ header {
 }
 
 #prof-left-block img {
-    width: 10em;
+    width: clamp(600px, 50vw, 800px);
 }
 
 #prof-right-block {
-    margin-left: 3em;
+    /* margin-left: 3em; */
     width: 28em;
     top: 5em;
     color: #fff;
@@ -202,19 +202,23 @@ header {
 .skill-type {
     font-size: 3em;
     width: fit-content;
-    margin: 0 auto 0.3em;
+    margin: 0 auto 1em;
     font-family: "Lora", serif;
     font-size: 2em;
 }
 
+.skills-block-wrapper {
+    margin-top: 8em;
+}
+
 .skill-type-message {
     width: fit-content;
-    margin: 0 auto 2em;
+    margin: 4em auto 2em;
 }
 
 .skills-block {
     width: 35em;
-    margin: 0 auto 4em;
+    margin: 0 auto 10em;
     position: relative;
 }
 
@@ -226,7 +230,7 @@ header {
     width: 30em;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0 auto 1em;
     justify-content: center;
 }
 
@@ -257,8 +261,8 @@ header {
 }
 
 .swiper-container {
-    position: relative;
-    overflow: hidden;
+    margin: auto;
+    width: auto;
 }
 
 .swiper-button-prev:after,
@@ -412,10 +416,12 @@ footer {
     position: absolute;
 }
 
-footer p {
+footer div {
+    display: flex;
     padding: 2em;
     width: fit-content;
     margin: auto;
+    font-size: clamp(14px, 2.5vw, 20px);
     font-family: "Yeseva One", serif;
 }
 
@@ -510,26 +516,31 @@ footer p {
         color: #dc5f00;
     }
 
-    .top {
+    /* .top {
         margin-top: 4rem;
+    } */
+    .top-name {
+        margin-top: 4rem;
+        font-size: clamp(10px, 16vw, 80px);
+        width: 80vw;
+    }
+
+    #info-wrapper {
+        width: 80vw;
     }
 
     /*     .top-name-block {
         width: 90vw;
     } */
 
-    .top-name {
-        font-size: 14vw;
-    }
-
     .section-wapper {
         padding-bottom: 4rem;
     }
 
     /*profile*/
-    .prof-block {
+    /* .prof-block {
         display: block;
-    }
+    } */
 
     #prof-right-block {
         position: initial;
@@ -567,8 +578,20 @@ footer p {
         width: auto;
     }
 
+    .swiper-container {
+        width: 60vw;
+    }
+
+    .swiper-button-prev::after {
+        left: var(--swiper-navigation-sides-offset, -60px);
+    }
+
+    .swiper-button-next::after {
+        right: var(--swiper-navigation-sides-offset, -60px);
+    }
+
     .skills-items div {
-        height: 40vh;
+        height: 36vh;
     }
 
     /*works*/
@@ -606,15 +629,12 @@ footer p {
 
     .top-name {
         margin-top: 4vh;
-        width: 80vw;
+        /* width: 80vw; */
+        font-size: 16vw;
     }
 
-    #info-wrapper {
+    /* #info-wrapper {
         width: 80vw;
-    }
-
-    /* .prof-block {
-        display: block;
     } */
 
     .prof-left-block {
@@ -622,9 +642,7 @@ footer p {
     }
 
     #prof-left-block img {
-        /* width: 90%; */
-        /* height: 20em; */
-        /* object-fit: contain; */
+        width: 90vw;
         min-width: 200px;
     }
 
@@ -632,8 +650,8 @@ footer p {
         width: 90vw;
     }
 
-    /* .prof-right-block p {
-        font-size: 0.6em;
+    /* .skills-items div {
+        height: 30vh;
     } */
 
     .swiper {
@@ -648,25 +666,21 @@ footer p {
         right: var(--swiper-navigation-sides-offset, -50px);
     }
 
-    .works-block-wrapper {
-        width: 90%;
-    }
-
-    .mock-pc {
-        width: 12em;
-    }
-
-    .mock-sp {
-        width: 6em;
-    }
-
     .skill-text-block p {
         width: 90%;
         margin: auto;
         font-size: 0.7em;
     }
 
-    .slick-dots {
-        top: 15rem;
+    .mock-pc {
+        width: 60vw;
+    }
+
+    .mock-sp {
+        width: 30vw;
+    }
+
+    footer div {
+        display: block;
     }
 }

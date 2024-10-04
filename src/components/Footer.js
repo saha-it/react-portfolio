@@ -5,7 +5,10 @@ function Footer() {
         <div>
             <div>
                 <footer>
-                    <p>All Rights Reserved 2024 ©︎ hayate kawatoko</p>
+                    <div>
+                        <p>All Rights Reserved 2024</p>
+                        <p>©︎ hayate kawatoko</p>
+                    </div>
                 </footer>
             </div>
         </div>
