@@ -666,35 +666,21 @@ footer div {
         right: var(--swiper-navigation-sides-offset, -50px);
     }
 
-    .works-block-wrapper {
-        width: 90%;
-    }
-
-    .mock-pc {
-        width: 12em;
-    }
-
-    .mock-sp {
-        width: 6em;
-    }
-
     .skill-text-block p {
         width: 90%;
         margin: auto;
         font-size: 0.7em;
     }
 
-    .slick-dots {
-        top: 15rem;
+    .mock-pc {
+        width: 60vw;
     }
 
-    /* footer {
-        display: block;
-    } */
+    .mock-sp {
+        width: 30vw;
+    }
 
     footer div {
         display: block;
-        /* padding: 0;
-        margin: 0; */
     }
 }
