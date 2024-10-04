@@ -650,10 +650,6 @@ footer div {
         width: 90vw;
     }
 
-    /* .skills-items div {
-        height: 30vh;
-    } */
-
     .swiper {
         width: 60vw;
     }
@@ -666,10 +662,14 @@ footer div {
         right: var(--swiper-navigation-sides-offset, -50px);
     }
 
+    .skills-items div {
+        height: 40vh;
+    }
+
     .skill-text-block p {
         width: 90%;
         margin: auto;
-        font-size: 0.7em;
+        font-size: 0.75em;
     }
 
     .mock-pc {
