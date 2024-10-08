@@ -1,11 +1,11 @@
 import React from "react";
 
 /*images*/
-import img_my_sql from "../images/MySQL.png";
-import img_postgres_sql from "../images/PostgreSQL.png";
-import img_git from "../images/git.png";
-import img_docker from "../images/docker.png";
-import img_api from "../images/API.png";
+import img_my_sql from "../images/skills/MySQL.png";
+import img_postgres_sql from "../images/skills/PostgreSQL.png";
+import img_git from "../images/skills/git.png";
+import img_docker from "../images/skills/docker.png";
+import img_api from "../images/skills/API.png";
 
 export const OthersSkillsData = [
     {

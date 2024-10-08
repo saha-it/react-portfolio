@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import prof_img_pc from "../images/prof2.jpg";
-import prof_img_sp from "../images/prof5.jpg";
+import prof_img_pc from "../images/about/prof2.jpg";
+import prof_img_sp from "../images/about/prof5.jpg";
 
 function About() {
     return (
@@ -36,6 +36,14 @@ function About() {
                                 <br></br>
                                 フロントエンドに転向したくなったのでただいま勉強中。
                             </p>
+                            <p>
+                                実装機能→CMS、テスター、フロントデザイン改修、エンドポイント作成
+                                （職務経歴書みたいな）
+                            </p>
+                            <p>
+                                詳しい分野→チョコレート、カフェ、スイーツ、サッカー、ハイブランド、ゲーム、e-sport、フランス文学
+                            </p>
+                            <p></p>
                         </motion.div>
                     </div>
                 </div>

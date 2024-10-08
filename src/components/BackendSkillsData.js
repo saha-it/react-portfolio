@@ -1,9 +1,9 @@
 import React from "react";
 
 /*images*/
-import img_php from "../images/php.png";
-import img_laravel from "../images/Laravel.png";
-import img_livewire from "../images/Livewire.png";
+import img_php from "../images/skills/php.png";
+import img_laravel from "../images/skills/Laravel.png";
+import img_livewire from "../images/skills/Livewire.png";
 
 export const BackendSkillsData = [
     {

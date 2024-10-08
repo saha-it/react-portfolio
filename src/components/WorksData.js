@@ -1,7 +1,7 @@
 import React from "react";
 
-import img_company_pc from "../images/mock-company-pc.png";
-import img_company_sp from "../images/mock-company-sp.png";
+import img_company_pc from "../images/works/mock-company-pc.png";
+import img_company_sp from "../images/works/mock-company-sp.png";
 
 const company = "https://saha-it.github.io/portfolio/LP/company/company.html";
 
