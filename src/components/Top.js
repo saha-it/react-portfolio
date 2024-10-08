@@ -102,7 +102,10 @@ function Top() {
                                     ・スライドショーをslick.jsからswiperという
                                     Reactのライブラリに変更。(SKILLSページ)
                                 </li>
-                                <li></li>
+                                <li>
+                                    ・TOPページにはフッターを表示しないようにしたい
+                                    →フッターのコンポーネントでURLによって条件分岐
+                                </li>
                                 <li></li>
                                 <li></li>
                             </ul>
