@@ -112,6 +112,8 @@ header {
 
 /*TOP*/
 .canvas {
+    filter: blur(100px);
+    animation: blur-anim 3s linear forwards;
     /* background: linear-gradient(
         180deg,
         #2f91c2 0%,
@@ -131,14 +133,20 @@ header {
         #057185 80%,
         #d6cc70 100%
     ); */
-    background-color: transparent;
+    /* background-color: transparent; */
     filter: blur(100px);
     animation: blur-anim 1.5s linear forwards;
     padding-bottom: 20em;
     margin: auto;
-    width: 90vw;
+    width: 100vw;
     /* margin-left: 20em; */
 }
+
+/* .top-images {
+    background-color: #000;
+    margin-top: 4em;
+    border: 1px red solid;
+} */
 
 @keyframes blur-anim {
     100% {

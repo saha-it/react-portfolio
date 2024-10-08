@@ -2,7 +2,13 @@ import { useRef, Suspense } from "react";
 import { useThree, useFrame, Canvas } from "@react-three/fiber";
 import { useScroll, Image, ScrollControls, Scroll } from "@react-three/drei";
 
-import img_css from "../images/skills/CSS.png";
+import img_react from "../images/skills/react.png";
+import img_calendar from "../images/top/calendar.png";
+import img_laptop from "../images/top/laptop.png";
+import img_purpose from "../images/top/purpose.png";
+import img_idea from "../images/top/idea.png";
+import img_struggle from "../images/top/struggle.png";
+import img_task from "../images/top/task.png";
 import Top from "./Top";
 
 function Images() {
@@ -20,22 +26,38 @@ function Images() {
 
     return (
         <group ref={group}>
-            <Image url={img_css} scale={[4, height, 1]} position={[-1, 0, 1]} />
-            <Image url={img_css} scale={3} position={[2, 0, 1]} />
+            <Image url={img_react} scale={3} position={[0, -1, 2]} />
+            {/* <Image url={img_calendar} scale={3} position={[2, -4, 1]} /> */}
             <Image
-                url={img_css}
-                scale={[1, 3.5, 1]}
-                position={[-2.3, -height, 2]}
+                url={img_laptop}
+                scale={[2, 3.5, 1]}
+                position={[1, -4, 1]}
+                transparent
+                opacity={0.4}
             />
             <Image
-                url={img_css}
-                scale={[1, 2.7, 1]}
+                url={img_purpose}
+                scale={[3, 4, 1]}
                 position={[-1.4, -height - 0.7, 1]}
+                transparent
+                opacity={0.2}
             />
-            <Image
-                url={img_css}
+            {/* <Image
+                url={img_idea}
                 scale={[1.4, 2, 1]}
-                position={[1.3, -height - 0.3, 3.2]}
+                position={[1.3, -height - 1.4, 3.2]}
+            /> */}
+            {/* <Image
+                url={img_struggle}
+                scale={[1.4, 2, 1]}
+                position={[0.3, -height - 5.3, 0]}
+            /> */}
+            <Image
+                url={img_task}
+                scale={[4, 6, 1]}
+                position={[1.3, -height - 8, -2]}
+                transparent
+                opacity={0.4}
             />
         </group>
     );
@@ -49,51 +71,22 @@ function App() {
             style={{
                 width: "100%",
                 height: "100vh",
-                backgroundColor: "transparent",
             }}
             className="canvas"
         >
             <Suspense fallback={null}>
                 <ScrollControls
                     damping={1}
-                    pages={3}
+                    pages={3.8}
                     horizontal={false}
                     infinite={false}
                 >
                     <Scroll>
-                        <Images
-                            style={{
-                                backgroundColor: "transparent",
-                            }}
-                        />
+                        <Images />
                     </Scroll>
                     <Scroll html>
-                        <Top
-                            style={{
-                                backgroundColor: "transparent",
-                            }}
-                        />
+                        <Top />
                     </Scroll>
-                    {/* <Scroll html>
-                        <h1
-                            style={{
-                                position: "absolute",
-                                top: "60vh",
-                                left: "1.5em",
-                            }}
-                        >
-                            Be
-                        </h1>
-                        <h1
-                            style={{
-                                position: "absolute",
-                                top: "140vh",
-                                left: "40vw",
-                            }}
-                        >
-                            Creative
-                        </h1>
-                    </Scroll> */}
                 </ScrollControls>
             </Suspense>
         </Canvas>
