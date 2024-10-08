@@ -14,9 +14,11 @@ import Works from "./components/Works.js";
 import Footer from "./components/Footer.js";
 
 import Sidebar from "./components/Sidebar.js";
+import Three from "./components/Three.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const APP_NAME = "react-portfolio";
+
 root.render(
     <React.StrictMode>
         <Header />
@@ -28,10 +30,15 @@ root.render(
                     <Route path={APP_NAME + "/about"} element={<About />} />
                     <Route path={APP_NAME + "/skills"} element={<Skills />} />
                     <Route path={APP_NAME + "/works"} element={<Works />} />
+                    <Route path={APP_NAME + "/three"} element={<Three />} />
                 </Routes>
             </BrowserRouter>
         </div>
-        <Footer />
+        <BrowserRouter>
+            <Routes>
+                <Route path={APP_NAME + "/*"} element={<Footer />} />
+            </Routes>
+        </BrowserRouter>
     </React.StrictMode>
 );
 
