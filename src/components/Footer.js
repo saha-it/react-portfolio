@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 function Footer() {
     const pathname = useLocation().pathname;
-    const top_page_path = "/react-portfolio/three";
+    const top_page_path = "/react-portfolio/";
 
     //topページにはフッターを表示しない
     if (pathname !== top_page_path) {
