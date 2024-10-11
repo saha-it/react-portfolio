@@ -6,15 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 /*画面表示ファイル読み込み*/
-import Top from "./components/Top";
+/* import Top from "./components/TopText"; */
+import Top from "./components/Top.js";
 import Header from "./components/Header.js";
 import About from "./components/About.js";
 import Skills from "./components/Skills.js";
 import Works from "./components/Works.js";
 import Footer from "./components/Footer.js";
-
 import Sidebar from "./components/Sidebar.js";
-import Three from "./components/Three.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const APP_NAME = "react-portfolio";
@@ -30,7 +29,6 @@ root.render(
                     <Route path={APP_NAME + "/about"} element={<About />} />
                     <Route path={APP_NAME + "/skills"} element={<Skills />} />
                     <Route path={APP_NAME + "/works"} element={<Works />} />
-                    <Route path={APP_NAME + "/three"} element={<Three />} />
                 </Routes>
             </BrowserRouter>
         </div>
