@@ -30,9 +30,9 @@ export default function SkillsSlide(props) {
                                 className="star5_rating"
                                 data-rate={value.star}
                             ></span>
-                            <div className="skill-text-block">
+                            {/* <div className="skill-text-block">
                                 <p>{value.skill_description}</p>
-                            </div>
+                            </div> */}
                         </div>
                     </SwiperSlide>
                 ))}

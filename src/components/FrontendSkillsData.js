@@ -1,14 +1,14 @@
 import React from "react";
 
 /*images*/
-import img_html from "../images/HTML.png";
-import img_css from "../images/CSS.png";
-import img_tailwind from "../images/tailwind.png";
-import img_daisy_ui from "../images/daisyUI.png";
-import img_javascript from "../images/javascript.png";
-import img_jquery from "../images/jQuery.png";
-import img_typescript from "../images/Typescript.png";
-import img_vue_js from "../images/Vuejs.png";
+import img_html from "../images/skills/HTML.png";
+import img_css from "../images/skills/CSS.png";
+import img_tailwind from "../images/skills/tailwind.png";
+import img_daisy_ui from "../images/skills/daisyUI.png";
+import img_javascript from "../images/skills/javascript.png";
+import img_jquery from "../images/skills/jQuery.png";
+import img_typescript from "../images/skills/Typescript.png";
+import img_vue_js from "../images/skills/Vuejs.png";
 
 export const FrontendSkillsData = [
     {

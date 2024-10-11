@@ -32,7 +32,7 @@ function Skills() {
         <div>
             <section>
                 <div className="section-wapper" id="skills">
-                    <h2 className="heading">skills</h2>
+                    <h2 className="heading">SKILLS</h2>
                     <div className="skills-block-wrapper">
                         <motion.div
                             initial={{ opacity: 0, y: +100 }}

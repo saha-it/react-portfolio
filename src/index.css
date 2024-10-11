@@ -17,8 +17,8 @@
 }
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 3em;
+    /* scroll-behavior: smooth;
+    scroll-padding-top: 3em; */
 }
 
 body {
@@ -85,7 +85,7 @@ header {
 
 .sidebar-block {
     display: flex;
-    color: #fff;
+    /* color: #fff; */
     margin-bottom: 1rem;
 }
 
@@ -111,19 +111,42 @@ header {
 }
 
 /*TOP*/
-#top {
-    background: linear-gradient(
+.canvas {
+    filter: blur(100px);
+    animation: blur-anim 3s linear forwards;
+    /* background: linear-gradient(
         180deg,
         #2f91c2 0%,
         #239bb1 40%,
         #087588 60%,
         #057185 80%,
         #d6cc70 100%
-    );
+    ); */
+}
+
+#top {
+    /* background: linear-gradient(
+        180deg,
+        #2f91c2 0%,
+        #239bb1 40%,
+        #087588 60%,
+        #057185 80%,
+        #d6cc70 100%
+    ); */
+    /* background-color: transparent; */
     filter: blur(100px);
     animation: blur-anim 1.5s linear forwards;
     padding-bottom: 20em;
+    margin: auto;
+    width: 100vw;
+    /* margin-left: 20em; */
 }
+
+/* .top-images {
+    background-color: #000;
+    margin-top: 4em;
+    border: 1px red solid;
+} */
 
 @keyframes blur-anim {
     100% {
@@ -132,7 +155,7 @@ header {
 }
 
 .top-name {
-    color: #fff;
+    color: #000;
     font-family: "Yeseva One", serif;
     font-size: 6.5rem;
     width: 60vw;
@@ -143,7 +166,7 @@ header {
 #info-wrapper {
     width: 60vw;
     margin: 20vh auto 0;
-    color: #fff;
+    color: #000;
     font-family: "Yu Mincho", serif;
 }
 
@@ -180,19 +203,48 @@ header {
 }
 
 #prof-left-block {
+    margin: auto;
+    width: fit-content;
 }
 
 #prof-left-block img {
-    width: clamp(600px, 50vw, 800px);
+    width: clamp(200px, 10vw, 800px);
 }
 
-#prof-right-block {
-    /* margin-left: 3em; */
+.about-content-wrapper {
+    color: #fff;
+    width: 60vw;
+    margin-top: 4em;
+}
+
+.about-heading {
+    font-family: "Lora", serif;
+    border-bottom: 1px #fff solid;
+    font-size: clamp(16px, 2.2vw, 24px);
+}
+
+.about-content {
+    display: flex;
+    margin-top: 2em;
+}
+
+.about-text-block {
+    font-family: "Yu Mincho", serif;
+    width: 70%;
+}
+
+.about-3d-block {
+    width: 30%;
+    height: fit-content;
+    margin: auto;
+}
+
+/* #prof-right-block {
     width: 28em;
     top: 5em;
     color: #fff;
-    font-family: "Yu Mincho", serif;
-}
+    
+} */
 
 /*skills*/
 #skills {
@@ -251,7 +303,7 @@ header {
     list-style: none;
     text-align: center;
     background: #ebf4f6;
-    height: 15em;
+    height: 12em;
     border-radius: 1em;
     overflow: hidden;
 }
@@ -413,7 +465,9 @@ header {
 footer {
     background: #d6cc70;
     width: 100%;
-    position: absolute;
+    /* position: fixed;
+    z-index: 100;
+    bottom: 0; */
 }
 
 footer div {
@@ -555,13 +609,26 @@ footer div {
     }
 
     #prof-left-block img {
-        width: 60vw;
+        width: 30vw;
         margin: auto;
-        min-width: 300px;
+        min-width: 200px;
     }
 
     #prof-right-block p {
         font-size: clamp(12px, 2.6vw, 18px);
+    }
+
+    .about-content {
+        display: block;
+        /* margin-top: 2em; */
+    }
+
+    .about-heading {
+        text-align: center;
+    }
+
+    .about-text-block {
+        margin: auto;
     }
 
     /*skills*/
@@ -591,7 +658,7 @@ footer div {
     }
 
     .skills-items div {
-        height: 36vh;
+        height: 26vh;
     }
 
     /*works*/
@@ -641,13 +708,21 @@ footer div {
         text-align: center;
     }
 
-    #prof-left-block img {
+    /* #prof-left-block img {
         width: 90vw;
         min-width: 200px;
+    } */
+
+    /* #prof-right-block {
+        width: 90vw;
+    } */
+
+    .about-3d-block {
+        width: 100%;
     }
 
-    #prof-right-block {
-        width: 90vw;
+    .about-text-block {
+        width: 100%;
     }
 
     .swiper {
@@ -663,7 +738,7 @@ footer div {
     }
 
     .skills-items div {
-        height: 40vh;
+        height: 26vh;
     }
 
     .skill-text-block p {
