@@ -8,7 +8,7 @@ function Works() {
         <div>
             <section>
                 <div className="section-wapper" id="works">
-                    <h2 className="heading">works</h2>
+                    <h2 className="heading">WORKS</h2>
                     <div className="works-block-wrapper">
                         {WorksData.map((value, key) => {
                             return (

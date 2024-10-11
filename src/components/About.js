@@ -14,7 +14,7 @@ function About() {
         <div>
             <section>
                 <div class="section-wapper" id="profile">
-                    <h2 class="heading">about</h2>
+                    <h2 class="heading">ABOUT</h2>
                     <div class="prof-block">
                         <motion.div
                             id="prof-left-block"
