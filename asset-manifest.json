@@ -1,13 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7901f7fc.css",
-    "main.js": "/react-portfolio/static/js/main.e69979e9.js",
-    "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
+    "main.css": "/react-portfolio/static/css/main.e248183a.css",
+    "main.js": "/react-portfolio/static/js/main.327bb409.js",
+    "static/js/453.9415623e.chunk.js": "/react-portfolio/static/js/453.9415623e.chunk.js",
+    "static/js/50.0234faa8.chunk.js": "/react-portfolio/static/js/50.0234faa8.chunk.js",
+    "static/js/788.de0d99e8.chunk.js": "/react-portfolio/static/js/788.de0d99e8.chunk.js",
+    "static/js/639.4532931b.chunk.js": "/react-portfolio/static/js/639.4532931b.chunk.js",
+    "static/js/931.133adec9.chunk.js": "/react-portfolio/static/js/931.133adec9.chunk.js",
+    "static/media/task.png": "/react-portfolio/static/media/task.4e7653f05cfe3cdbddbf.png",
     "static/media/mock-company-sp.png": "/react-portfolio/static/media/mock-company-sp.034342295dac747ed610.png",
     "static/media/mock-company-pc.png": "/react-portfolio/static/media/mock-company-pc.d2f67fccf447ee2d9223.png",
+    "static/media/idea.png": "/react-portfolio/static/media/idea.ec7bf330fdb282c5eac9.png",
+    "static/media/laptop.png": "/react-portfolio/static/media/laptop.960df987a7520a2380a9.png",
+    "static/media/prof.png": "/react-portfolio/static/media/prof.fd03cc7c17eac999b630.png",
+    "static/media/purpose.png": "/react-portfolio/static/media/purpose.db430caf67f805167bee.png",
+    "static/media/struggle.png": "/react-portfolio/static/media/struggle.3dfa0369fe88827622f7.png",
     "static/media/prof2.jpg": "/react-portfolio/static/media/prof2.d4e4b3c79b5d7890e898.jpg",
-    "static/media/prof5.jpg": "/react-portfolio/static/media/prof5.7907b975a42f8d24dbdd.jpg",
+    "static/media/react.png": "/react-portfolio/static/media/react.2f2532db663fd5ec5f95.png",
     "static/media/PostgreSQL.png": "/react-portfolio/static/media/PostgreSQL.205c6e1cf88f5fb991e4.png",
+    "static/media/calendar.png": "/react-portfolio/static/media/calendar.89da3c4a513dd4917f32.png",
     "static/media/jQuery.png": "/react-portfolio/static/media/jQuery.5218d846e86fbcafcc5d.png",
     "static/media/CSS.png": "/react-portfolio/static/media/CSS.c083b18f4c5eb3e149ce.png",
     "static/media/HTML.png": "/react-portfolio/static/media/HTML.30aadf7126e3b5c4b9e3.png",
@@ -20,12 +31,16 @@
     "static/media/Livewire.png": "/react-portfolio/static/media/Livewire.dd53427b5383cf816e7d.png",
     "static/media/Typescript.png": "/react-portfolio/static/media/Typescript.bb13ebd9561a6ee645c2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.7901f7fc.css.map": "/react-portfolio/static/css/main.7901f7fc.css.map",
-    "main.e69979e9.js.map": "/react-portfolio/static/js/main.e69979e9.js.map",
-    "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
+    "main.e248183a.css.map": "/react-portfolio/static/css/main.e248183a.css.map",
+    "main.327bb409.js.map": "/react-portfolio/static/js/main.327bb409.js.map",
+    "453.9415623e.chunk.js.map": "/react-portfolio/static/js/453.9415623e.chunk.js.map",
+    "50.0234faa8.chunk.js.map": "/react-portfolio/static/js/50.0234faa8.chunk.js.map",
+    "788.de0d99e8.chunk.js.map": "/react-portfolio/static/js/788.de0d99e8.chunk.js.map",
+    "639.4532931b.chunk.js.map": "/react-portfolio/static/js/639.4532931b.chunk.js.map",
+    "931.133adec9.chunk.js.map": "/react-portfolio/static/js/931.133adec9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7901f7fc.css",
-    "static/js/main.e69979e9.js"
+    "static/css/main.e248183a.css",
+    "static/js/main.327bb409.js"
   ]
 }
